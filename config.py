@@ -19,11 +19,11 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "1701363")
     API_HASH  = os.environ.get("API_HASH", "df8beceb7a16ccc6d128522b30845a20")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7967050798:AAEO2NUN18WFgtGCj5Muoab38PSMjF_ZwHA") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://imsakib:Sakib100@cluster0.6qzunrs.mongodb.net/?appName=Cluster0")
     PORT = os.environ.get("PORT", "8050")
     OWNER = int(os.environ.get("OWNER", "5169962212"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
