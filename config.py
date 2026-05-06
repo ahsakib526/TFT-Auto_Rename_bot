@@ -10,30 +10,30 @@ ADMIN = []  # TemporLoad admins when the bot starts
 TOKEN_VERIFY=False
 API = environ.get("API", "5a7508a173d6462e4cd4b723766b92541c389a6b") # shortlink api
 URL = environ.get("URL", "arolinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Gt55OVP7VTAyNmNl") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Ghjjjoooo_bot") # bot username without @
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/lifetimebackup2026") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "secret_rename_bot") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
 USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based on hours
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "1701363")
+    API_HASH  = os.environ.get("API_HASH", "df8beceb7a16ccc6d128522b30845a20")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "5169962212"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "lifetimebackup2026").split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003917170207" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     
@@ -105,9 +105,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Tech_Freak_Tamil</code>
+<code>By :- @AHSakib1</code>
 
-💬 For Any Help Contact @Tech_Freak_Tamil
+💬 For Any Help Contact @AHSakib1
 </blockquote>"""
 
 
